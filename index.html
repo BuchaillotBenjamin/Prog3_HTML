@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Estilo de la tabla -->
+    <style>
+        table {
+            width: 15%;
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header del encabezado principal y los enlaces a las partes del trabajo -->
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#articulo1">Estructura</a></li>
+                <li><a href="#seccion3">Multimedia</a></li>
+                <li><a href="#seccion5">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Punto 1 Estructura Básica-->
+        <article id="articulo1">
+
+            <h1>1. Estructura Básica del Documento HTML</h1>
+            <h3>Este documento HTML tiene una estructura básica que incluye la declaración de DOCKTYPE, etiquetas de metadatosy un titulo</h3>
+
+        </article>
+
+        <!-- Punto 2 Propiedades de texto -->
+        <article id="articulo2">
+
+
+            <h1>2. Encabezados y Propiedades de texto</h1>
+            <h1><b><i>Este texto esta en negrita y cursiva</i></b></h1>
+            <h2><b>Este texto esta en negrita</b></h2>
+            <h3><u>Este texto esta subrayado</u></h3>
+            <h4><i>Este texto esta en cursiva</i></h4>
+            <h5><mark>Este texto esta resaltado</mark></h5>
+            <h6><u><mark>Este texto esta subrayado y resaltado</mark></u></h6>
+
+        </article>
+
+        <!-- Punto 3 Divisiones -->
+        <section id="seccion1">
+
+            <h1>3. Divisiones y Agrupación de Contenidos</h1>
+
+            <h3><b>Sección 1</b></h3>
+
+            <div>
+                <p>Contenido de la primera sección agrupada en un div.</p>
+            </div>
+
+            <h3><b>Sección 2</b></h3>
+
+            <div>
+                <p>Contenido de la segunda sección agrupada en un div.</p>
+            </div>
+
+        </section>
+
+        <!-- Punto 4 Enlaces y Listas -->
+        <section id="seccion2">
+
+            <h1>4. Enlaces y Listas</h1>
+
+            <div>
+
+                <nav>
+                    <h3>Visita nuestro <a href="https://www4.frm.utn.edu.ar/" class="enlace-resaltado">sitio web</a> para más información.</h3>
+                </nav>
+
+            </div>
+
+            <div>
+
+                <h3>Enlaces internos:</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#articulo1">Ir a Estructura Básica</a></li>
+                        <li><a href="#articulo2">Ir a Encabezado y Propiedades</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+
+                <h3>Listas desordenadas:</h3>
+                <ul>
+                    <li>Primer item</li>
+                    <li>Segundo item</li>
+                    <li>Tercer item</li>
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Listas ordenadas:</h3>
+                <ol>
+                    <li>Primer item</li>
+                    <li>Segundo item</li>
+                    <li>Tercer item</li>
+                </ol>
+
+            </div>
+
+        </section>
+
+        <!-- Punto 5 Imagen Video Audio-->
+        <section id="seccion3">
+
+            <h1>5. Elementos Multimedia</h1>
+
+            <div>
+
+                <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+                    width="150px" height="150px" alt="imagen mario">
+
+                <video
+                    src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                    width="200px" height="200px" controls></video>
+
+                <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+
+            </div>
+
+        </section>
+
+        <!-- Punto 6 Tabla -->
+        <section id="seccion4">
+
+            <h1>6. Tablas</h1>
+
+            <div>
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                        </tr>
+                        <tr>
+                            <td>Dato 3</td>
+                            <td>Dato 4</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- Punto 7 Formlario -->
+        <section id="seccion5">
+
+            <h1>7. Formulario</h1>
+            <form>
+
+                <div>
+                    <label>Nombre:</label>
+                    <input type="text">
+                    <label>Email:</label>
+                    <input type="email">
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                    <button type="submit">Enviar</button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer con la informacion del trabajo -->
+    <footer>
+        <h4>2024 Trabajo Práctico HTML Benjamin Buchaillot</h4>
+    </footer>
+
+</body>
+
+</html>
